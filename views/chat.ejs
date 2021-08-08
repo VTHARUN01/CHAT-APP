@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANOTHER SHIT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.1.3/socket.io.js"></script>
+    <link rel="stylesheet" href="/chat.css">
+</head>
+
+<body>
+    <nav class="panel is-primary" style="margin-bottom: 2px;">
+        <h1 class="panel-heading">WHATSAP</h1>
+    </nav>
+    <section>
+        <p>CHAT AREA</p>
+        <div>
+            <ul></ul>
+        </div>
+    </section>
+
+
+    <form>
+        <input type="text" class="input is-primary input is-medium" id="name" name='name' value=<%=name%> disabled>
+        <input type="text" class="input is-primary input is-medium" id="input" name='chat' placeholder="ENTER THE TEXT">
+        <button class="button is-primary">SEND</button>
+    </form>
+    <script src="/chat.js"></script>
+</body>
+
+</html>
